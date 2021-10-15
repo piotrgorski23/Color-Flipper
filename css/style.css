@@ -1,0 +1,37 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 72px);
+    display: grid;
+    place-items: center;
+}
+
+.navbar {
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding: 0 !important;
+}
+
+.navbar .container {
+    justify-content: space-evenly;
+}
+
+.btn {
+    border-color: var(--bs-dark);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    color: var(--bs-dark);
+    background: var(--bs-white);
+    box-shadow: none;
+}
