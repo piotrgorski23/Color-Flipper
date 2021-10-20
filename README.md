@@ -15,6 +15,7 @@ Project is created with:
 * HTML5
 * CSS
 * Bootstrap version: 5.1.3
+* JavaScript ES6
 
 ## Setup
 To run this project you can do it in two ways.
